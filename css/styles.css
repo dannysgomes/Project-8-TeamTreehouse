@@ -1,0 +1,97 @@
+body {
+    position: relative;
+    margin: 50px;
+    background:rgb(238, 232, 232)
+}
+
+.hi{
+    display: flex;
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+    
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.groupTitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border: 2px solid rgb(205, 201, 201);
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 310px;
+    margin: 15px;
+}
+
+.avatar {
+    border-radius: 100px;
+    height: 90px;
+}
+
+.text-container {
+    padding: 15px;
+}
+
+.name, .email, .address {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+.email, .address {
+    color:rgb(175, 172, 172);
+    font-size: 13px;
+}
+
+.name {
+    font-size: 19px;
+}
+
+
+    
+
+    
+
+
+
